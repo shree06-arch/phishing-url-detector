@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+.DS_Store
+*.log
+instance/
+.idea/
+.vscode/
+
+# Trained model is a build artifact — regenerate with `python src/train.py`
+models/*.joblib
+
+# The sample CSV IS tracked so the repo is runnable out of the box.
+# If you swap in a large real-world dataset, consider ignoring it instead:
+# data/urls.csv
